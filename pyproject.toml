@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "async_smsactivate"
+version = "1.5"
+authors = [
+  { name="Anning", email="anningforchina@gmail.com" }
+]
+description = "async-smsactivate is an unofficial Python module that provides out-of-the-box functions for using the asynchronous API sms-activate.org"
+long_description = file("README.md")
+long_description_content_type = "text/markdown"
+url = "https://github.com/Anning01/async-smsactivate"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+packages = ["aiohttp", "pydantic"]
